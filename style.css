@@ -1,0 +1,28 @@
+#container {
+}
+
+#cabecalho {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#navegacao {
+    display: flex;
+    gap: 12px;
+}
+
+#navegacao a:hover {
+    color: rgb(82, 80, 80);
+}
+
+#navegacao a {
+    transition: color 0.2s ease;
+}
+
+.item {
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
